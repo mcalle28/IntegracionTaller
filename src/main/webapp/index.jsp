@@ -19,17 +19,24 @@ body {
 <div class="w3-container w3-blue">
   <h2>Formula química</h2>
 </div>
+<div>
+  <form action="/resultado.jsp">
+    <label for="nA">Ingrese el numero del elemento quimico A</label>
+    <input type="number" id="nA" name="nA" placeholder="Formula A...">
 
-<form class="w3-container" action="resultado.jsp">
-  <p><label>Ingrese a continuación el número de resultado A:</label></p>
-  <input class="w3-input" "name="nA" type="number"id="nA"
-  <p>
-  <label>Ingrese a continuación el número de resultado B:</label></p>
-  <input class="w3-input" name="nB" type="number" id="nA">
-  <p>
-  <label>Ingrese a continuación el tipo instruccion dado en el empaque:</label></p>
-  <input class="w3-input" name="op" type="text" id="op" placeholder="+,-,*,/"><input value="Operar" type="submit" />
-</form>
+    <label for="nB">Ingrese el Numero del Elemento quimico B</label>
+    <input type="number" id="nB" name="nB" placeholder="Formula B..">
 
+    <label for="op">Operacion indicada en el empaque</label>
+    <select id="op" name="op">
+      <option value="+">Sumar</option>
+      <option value="-">Restar</option>
+      <option value="*">Multiplicar</option>
+      <option value="/">dividir</option>
+    </select>
+  
+    <input type="submit" value="Ingresar">
+  </form>
+</div>
 </body>
 </html> 
