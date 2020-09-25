@@ -12,7 +12,7 @@ body {
   background-image: url("https://img.icons8.com/cotton/2x/test-tube.png");
   background-repeat: no-repeat;
   background-position: right top;
-  margin-right: 200px;
+  margin-right: 500px;
   background-attachment: fixed;
 }
 </style>
