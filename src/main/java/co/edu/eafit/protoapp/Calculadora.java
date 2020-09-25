@@ -13,7 +13,7 @@ public class Calculadora {
         } else if (valor.equals("/") && dos!=0){
            resultado = uno/dos;
         } else{
-             throw new java.lang.Error("Operador no reconocido o valor de division 0");
+             resultado = 0;
         }
         return resultado;
     }

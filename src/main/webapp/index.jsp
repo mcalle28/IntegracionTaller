@@ -9,7 +9,7 @@
 <body>
 <style>
 body {
-  background-image: url("https://cdn.onlinewebfonts.com/svg/img_190263.png");
+  background-image: url("https://img.icons8.com/cotton/2x/test-tube.png");
   background-repeat: no-repeat;
   background-position: right top;
   margin-right: 200px;
@@ -21,7 +21,7 @@ body {
 </div>
 <div>
   <form action="/resultado.jsp">
-    <p><label for="nA">Ingrese el numero del elemento quimico A</label>
+    <p><label for="nA">Ingrese el Numero del Elemento quimico A</label>
     <input class="w3-input" type="number" id="nA" name="nA" placeholder="Formula A..."></p> 
 
     <p><label for="nB">Ingrese el Numero del Elemento quimico B</label>
@@ -32,7 +32,7 @@ body {
       <option value="+">Sumar</option>
       <option value="-">Restar</option>
       <option value="*">Multiplicar</option>
-      <option value="/">dividir</option>
+      <option value="/">Dividir</option>
     </select></p> 
   
     <input type="submit" value="Ingresar">
