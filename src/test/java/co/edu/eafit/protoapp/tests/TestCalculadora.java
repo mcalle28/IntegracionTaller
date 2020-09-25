@@ -13,24 +13,24 @@ public class TestCalculadora {
     @Test
     public void testCuadrado() {
         Calculadora calc = new Calculadora();
-        assertEquals(25.0, calc.cuadrado(5.0), 0);
+        assertEquals(7.0, calc.calc(5.0,"+",2.0), 0);
     }
 
     @Test
     public void testCero() {
         Calculadora calc = new Calculadora();
-        assertEquals(0.0, calc.cuadrado(0.0), 0);
+        assertEquals(3.0, calc.calc(5.0,"-",2.0), 0);
     }
 
     @Test
     public void testUno() {
         Calculadora calc = new Calculadora();
-        assertEquals(1.0, calc.cuadrado(1.0), 0);
+        assertEquals(10.0, calc.calc(5.0,"*",2.0), 0);
     }
 
     @Test
     public void testNegativo() {
         Calculadora calc = new Calculadora();
-        assertEquals(16.0, calc.cuadrado(-4.0), 0);
+        assertEquals(3.0, calc.calc(6.0,"/",2.0), 0);
     }
 }
